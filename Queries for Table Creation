@@ -1,0 +1,12 @@
+show databases;
+create database Monisha;
+show databases;
+use Monisha;
+create table Student( Roll_no int,name char(30),age int,Gender char(30));
+describe Student;
+insert into Student values(40,'Gowtham',20,'male');
+insert into Student values(19,'Karthi',20,'male');
+insert into Student values(28,'petchiyammal',20,'female');
+select*from Student;
+alter table Student add ph_no int;
+update Student set name='petchiyammal' where Roll_no=28;
